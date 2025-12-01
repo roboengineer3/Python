@@ -1,0 +1,8 @@
+import time
+import os
+#roboengineer
+while True:
+    os.system("cls")  # clear screen
+    current_time = time.strftime("%H:%M:%S")  # REAL TIME
+    print(current_time)
+    time.sleep(1)
