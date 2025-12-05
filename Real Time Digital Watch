@@ -1,8 +1,10 @@
 import time
 import os
 #roboengineer
-while True:
-    os.system("cls")  # clear screen
-    current_time = time.strftime("%H:%M:%S")  # REAL TIME
-    print(current_time)
+while 1:
+    os.system("cls")
+    current_date = time.strftime("%d-%m-%Y")
+    current_time = time.strftime("%H:%M:%S")
+    print("Date:", current_date)
+    print("Time:", current_time)
     time.sleep(1)
